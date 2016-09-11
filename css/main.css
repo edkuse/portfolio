@@ -1,0 +1,105 @@
+/* Define font and styles for body */
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+}
+
+/* Header styles */
+header {
+	border-bottom: 2px solid #7d97ad;
+	padding: 15px;
+}
+header h1 {
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+header h4 {
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.udacity-logo {
+	width: 24px;
+	height: 24px;
+}
+
+/* Main content styles */
+main {
+	padding: 15px 0;
+}
+
+/* Footer content styles */
+footer {
+	padding: 15px;
+}
+footer h2 {
+	color #7d97ad;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+figcaption {
+	text-align: center;
+}
+figcaption h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+
+/* Media query for small devices (tablets, 768px and up) 
+ * to change header font size
+ */
+@media (min-width: 768px) {
+	header h1 {
+		font-size: 24px;
+	}
+	header h4 {
+		font-size: 12px;
+	}
+
+	.udacity-logo {
+		width: 36px;
+		height: 36px;
+	}
+
+	footer h2 {
+		font-size: 24px;
+	}
+
+	figcaption h4 {
+		font-size: 22px;
+	}
+}
+
+/* Media query for medium/large (desktops, 992px and up) 
+ * to adjust font-size and logo size in header
+ */
+@media (min-width: 992px) {
+	header h1 {
+		font-size: 48px;
+	}
+	header h4 {
+		font-size: 16px;
+	}
+
+	.udacity-logo {
+		width: 72px;
+		height: 72px;
+	}
+
+	footer h2 {
+		font-size: 32px;
+	}
+
+	figcaption h4 {
+		font-size: 24px;
+	}
+}
